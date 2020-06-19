@@ -26,6 +26,7 @@ public class Person {
     @Override
     public String toString() {
         return "Name and surname: " + name + ' ' +
-                 surname + ", date of birth: " + dateOfBirth;
+                surname + ", date of birth: " + dateOfBirth
+                + '\n';
     }
 }

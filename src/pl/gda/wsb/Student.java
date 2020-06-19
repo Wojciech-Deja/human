@@ -14,8 +14,10 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student index number: " + indexNumber +
-                ", year of study: " + yearOfStudy +
-                ", group: " + group;
+        return "Name and surname: " + getName() +" "+ getSurname() +
+                ", date of birth: " + getDateOfBirth() +  "." + '\n' +
+                "Student index number: " + indexNumber +
+                ", yearOfStudy: " + yearOfStudy +
+                ", group: " + group + '\n';
     }
 }
