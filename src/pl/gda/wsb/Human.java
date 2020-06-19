@@ -30,5 +30,9 @@ public class Human {
 
         System.out.println(person3.toString());
         System.out.println(footballer1.toString());
+
+        person1.howManyYears();
+        footballer1.howManyYears();
+
     }
 }
