@@ -1,6 +1,5 @@
 package pl.gda.wsb;
 
-import javax.swing.text.Position;
 import java.text.ParseException;
 
 
@@ -8,8 +7,6 @@ public class Human {
 
 
     public static void main(String[] args) throws ParseException {
-
-
         Person person1 = new Person("Janusz", "Kowalski", "1975-10-06");
         Person person2 = new Student("Konrad", "Nowak", "1999-02-14",5,1,69856);
         Person person3 = new Footballer("Flavio","Paixao","1984-09-19","Lechia Gdańsk",Footballer.Position.attacker);
@@ -33,6 +30,5 @@ public class Human {
 
         person1.howManyYears();
         footballer1.howManyYears();
-
     }
 }
